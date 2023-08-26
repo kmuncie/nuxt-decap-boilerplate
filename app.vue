@@ -1,14 +1,12 @@
 <template>
-  <div class="h-screen w-screen overflow-y-auto py-10 text-slate-200 bg-slate-900">
-    <NuxtPage />
-  </div>
+  <NuxtPage />
 </template>
 
 <script setup>
 useHead({
-  title: 'NDT Stack',
+  title: 'Nuxt Decap Boilerplate',
   meta: [
-    { name: 'description', content: 'My amazing site.' }
+    { name: 'description', content: 'A simple boilerplate site.' }
   ],
   htmlAttrs: {
     lang: 'en'

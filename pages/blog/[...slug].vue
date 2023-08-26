@@ -1,7 +1,7 @@
 <template>
-    <main class="mx-auto max-w-4xl space-y-6">
+    <main>
     <NuxtLink to="/blog">&lt; Back</NuxtLink>
-    <h1 class="text-4xl">
+    <h1>
       {{ post.title }}
     </h1>
     <p>{{ post.description }}</p>

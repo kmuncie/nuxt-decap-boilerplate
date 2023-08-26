@@ -1,8 +1,8 @@
 <template>
-  <main class="mx-auto max-w-4xl space-y-6">
-    <h1 class="text-4xl">The Blog</h1>
+  <main>
+    <h1>The Blog</h1>
     <hr>
-    <ul class="list-disc list-inside">
+    <ul>
       <li v-for="post of posts" :key="post.slug">
         <NuxtLink :to="post._path">{{ post.title }}</NuxtLink>
       </li>
