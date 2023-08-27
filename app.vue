@@ -13,3 +13,7 @@ useHead({
   }
 })
 </script>
+
+<style lang="scss">
+@use "~/assets/scss/collector.scss";
+</style>

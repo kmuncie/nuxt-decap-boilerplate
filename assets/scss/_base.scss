@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
+
+@mixin little {
+   @media (min-width: 550px) {
+      @content;
+   }
+}
+
+@mixin bigger {
+   @media (min-width: 800px) {
+      @content;
+   }
+}
+
+@mixin biggest {
+   @media (min-width: 1200px) {
+      @content;
+   }
+}
+
+body {
+   color: var(--color-text);
+   background: var(--color-background);
+   transition: color 0.5s, background-color 0.5s;
+   margin: 0.5rem;
+   font-size: clamp(18px, calc(1.125rem + (26 - 18) * ((100vw - 400px) / (1920 - 400))), 26px);
+   font-family: 'Fantasque Sans Mono', sans-serif;
+   text-rendering: optimizeLegibility;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   color: var(--color-heading);
+   // text-shadow: 2px 2px 0 var(--color-one--dark), -1px -1px 0 var(--color-one--dark);
+   text-shadow: 2px 2px 2px var(--color-one--dark), 1px 1px 0 var(--color-one--dark),  -1px -1px 2px var(--color-one--medium);
+   line-height: 0.75;
+}
+

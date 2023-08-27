@@ -16,8 +16,9 @@ useHead({
       <ul>
         <li>Nuxt 3</li>
         <li>Decap CMS (formerly Netlify)</li>
+        <li>Preproccesor Sass styling</li>
       </ul>
       <h2>The Blog</h2>
-      <p>The blog is the core of this site. <NuxtLink to="/blog">Click here -></NuxtLink></p>
+      <p>The blog of this site. <NuxtLink to="/blog">Click here -></NuxtLink></p>
   </main>
 </template>

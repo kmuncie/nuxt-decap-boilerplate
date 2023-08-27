@@ -1,5 +1,6 @@
 <template>
   <main>
+    <small><NuxtLink to="/">Home</NuxtLink></small>
     <h1>The Blog</h1>
     <hr>
     <ul>

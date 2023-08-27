@@ -1,0 +1,16 @@
+:root {
+   --color-one: #c0e9fc;
+   --color-one--medium: #86a2af;
+   --color-one--dark: #363f43;
+   --color-two: #ffd5c2;
+   --color-two--dark: #89746a;
+   --color-three: #cdffc2;
+   --color-three--dark: #53654f;
+   --color-gray: #808080;
+   --color-white: #f7fcff;
+   --color-black: #1e2224;
+
+   --color-background: var(--color-one);
+   --color-text: var(--color-black);
+   --color-heading: var(--color-white);
+}
